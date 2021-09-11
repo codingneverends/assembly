@@ -1,4 +1,4 @@
-;String concardination
+;Counting no of substrings
 section .data
     newline :db 10
     space :db ' '

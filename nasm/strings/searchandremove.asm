@@ -1,4 +1,4 @@
-;String Comaprison
+;Removing a string
 section .data
     newline :db 10
     space :db ' '

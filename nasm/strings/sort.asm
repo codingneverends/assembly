@@ -4,10 +4,6 @@ section .data
     space :db ' '
     msg1 : db "Enter String : "
     size1 : equ $-msg1
-    msg2 : db "Largest String : "
-    size2 : equ $-msg2
-    msg3 : db "Smallest String : "
-    size3 : equ $-msg3
 section .bss
     string1 : resb 200
     string_search : resb 10

@@ -1,4 +1,4 @@
-;String Comaprison
+;Finding a string and replacing with another string
 section .data
     newline :db 10
     space :db ' '

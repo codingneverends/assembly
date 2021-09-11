@@ -1,4 +1,4 @@
-;String Comaprison
+;Finding largest and smallest strings
 section .data
     newline :db 10
     space :db ' '

@@ -1,11 +1,9 @@
-;Strings -- test for readstring and printstring
+;Removing all ocuurences of sub string in a string
 section .data
     newline :db 10
     space :db ' '
     msg1 : db "Enter a String : "
     size1 : equ $-msg1
-    msg2 : db "Entered String is : "
-    size2 : equ $-msg2
 section .bss
     string : resb 100
     temp : resb 1
